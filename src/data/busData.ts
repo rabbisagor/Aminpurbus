@@ -1,0 +1,88 @@
+import { BusConfig } from '../types/game';
+
+export const INITIAL_BUSES: BusConfig[] = [
+  {
+    id: 'aminpur_local_01',
+    name: 'আমিনপুর লোকাল এক্সপ্রেস',
+    nameEn: 'Aminpur Local Express',
+    category: 'LOCAL',
+    description: 'গ্রামীন সড়কের চিরচেনা লোকাল বাস। ছাদে মালামাল ক্যারিয়ার ও রঙিন গ্রাফিক্স শোভিত। ঝাঁকুনি সহনীয় ও টেকসই।',
+    descriptionEn: 'The iconic rural passenger bus of Aminpur. Features roof luggage carrier and traditional bus-art livery.',
+    price: 0,
+    unlocked: true,
+    maxSpeed: 70,
+    acceleration: 60,
+    braking: 65,
+    handling: 75,
+    passengerCapacity: 34,
+    fuelCapacity: 80,
+    fuelEfficiency: 5.2,
+    mass: 6500,
+    color: '#eab308', // Warm vibrant Bangladeshi yellow
+    secondaryColor: '#16a34a', // Bengali green accent
+    roofCarrier: true,
+    modelStyle: 'local',
+    upgrades: {
+      engine: 0,
+      brakes: 0,
+      handling: 0,
+      fuelTank: 0,
+    },
+  },
+  {
+    id: 'pabna_deluxe_02',
+    name: 'পাবনা ডিলাক্স আন্তঃজেলা',
+    nameEn: 'Pabna Deluxe Coach',
+    category: 'INTERCITY',
+    description: 'মাঝারি দূরত্বের আরামদায়ক চেয়ার কোচ। সুদৃশ্য অ্যারোডাইনামিক বডি, উন্নত ব্রেকিং ও হাইওয়েতে মসৃণ গতি।',
+    descriptionEn: 'Comfortable intercity chair coach with aerodynamic body, enhanced air brakes, and highway cruising stability.',
+    price: 35000,
+    unlocked: false,
+    maxSpeed: 95,
+    acceleration: 75,
+    braking: 80,
+    handling: 70,
+    passengerCapacity: 42,
+    fuelCapacity: 120,
+    fuelEfficiency: 4.8,
+    mass: 8200,
+    color: '#0284c7', // Sky royal blue
+    secondaryColor: '#f8fafc', // Crisp white stripe
+    roofCarrier: false,
+    modelStyle: 'deluxe',
+    upgrades: {
+      engine: 0,
+      brakes: 0,
+      handling: 0,
+      fuelTank: 0,
+    },
+  },
+  {
+    id: 'padma_royal_03',
+    name: 'পদ্মা সেতু রয়্যাল প্রিমিয়াম',
+    nameEn: 'Padma Royal Luxury Coach',
+    category: 'PREMIUM',
+    description: 'প্রিমিয়াম স্লিপার ও এসি হাইওয়ে কোচ। শক্তিশালী ইঞ্জিন, ডিজিটাল সাসপেনশন এবং সর্বোচ্চ গতি ও রাজকীয় আরামদায়ক কেবিন।',
+    descriptionEn: 'Top-tier luxury long-distance coach with supreme acceleration, digital air-suspension, and royal passenger comfort.',
+    price: 85000,
+    unlocked: false,
+    maxSpeed: 120,
+    acceleration: 90,
+    braking: 90,
+    handling: 85,
+    passengerCapacity: 50,
+    fuelCapacity: 160,
+    fuelEfficiency: 4.2,
+    mass: 9800,
+    color: '#991b1b', // Deep Royal Maroon
+    secondaryColor: '#eab308', // Gold striping
+    roofCarrier: false,
+    modelStyle: 'luxury',
+    upgrades: {
+      engine: 0,
+      brakes: 0,
+      handling: 0,
+      fuelTank: 0,
+    },
+  },
+];
